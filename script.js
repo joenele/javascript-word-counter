@@ -10,5 +10,5 @@ document
         }
     });
     document.querySelector("#words").innerText = res.length;
-    document.querySelector("#characters").innerText = char.length
+    document.querySelector("#characters").innerText = this.value.length
 })
